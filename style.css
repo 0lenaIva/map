@@ -5,10 +5,10 @@
 }
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #f1fe93;
+    background-color: #7EA8CD;
     color: #1e293b;
     display: flex;
-    flex-direction: column;
+
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -18,7 +18,7 @@ body {
 
 
 .hint {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 0.9rem;
     color: #8b8664;
     text-align: center;
@@ -26,7 +26,6 @@ body {
 
 .map-container {
     width: 100%;
-    max-width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,11 +34,11 @@ body {
 svg {
     width: 100%;
     height: auto;
-    max-height: 60vh;
+    max-height: 80vh;
 }
 
 .land {
-    fill: #78b7cf;
+    fill: #7EA8CD;
     stroke: #ffffff;
     stroke-width: 0.8;
     cursor: pointer;
@@ -53,3 +52,28 @@ svg {
 .land.active {
     fill: #0e368d; 
 } 
+
+#information{
+    height:90vh;
+    background-color: #C0D3DF;
+    width:30vw;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heading{
+    font-size: 35px;
+    background: #8CB4D0;
+
+}
+.location, .log{
+    background-color:#B0C5DD;
+    padding:10px;
+    font-size: 22px;
+    min-height:33vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

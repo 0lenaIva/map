@@ -77,3 +77,11 @@ svg {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.land.active-from{
+    fill:#2ecc71;
+}
+
+.land.active-to{
+    fill:#e74c3c;
+}
